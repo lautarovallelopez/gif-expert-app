@@ -13,6 +13,7 @@ const useFetchGifs = category => {
 
     useEffect(() => {
         getImages();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return {
